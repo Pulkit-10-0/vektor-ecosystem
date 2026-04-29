@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+node_modules/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+.DS_Store
+Thumbs.db
+.vscode/
+=======
+node_modules
+
+
+env
+>>>>>>> be767bf79bf4f59303426693c517cce50db2bfc4

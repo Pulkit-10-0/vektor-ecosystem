@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: vectorgo-agent-engine
+    runtime: docker
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: HOST
+        value: 0.0.0.0

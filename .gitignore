@@ -1,0 +1,43 @@
+# General OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.iml
+
+# Android and Gradle output
+.gradle/
+**/build/
+**/out/
+**/generated/
+**/intermediates/
+**/kspCaches/
+**/tmp/
+local.properties
+*.keystore
+*.jks
+*.log
+
+# Node and backend output
+node_modules/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache and packaging output
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets and local env files
+.env
+.env.*
+!.env.example
+
+# Keep the checked-in APK artifact at the repository root
+*.apk
+!app-release.apk
